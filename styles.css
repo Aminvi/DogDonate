@@ -1,0 +1,160 @@
+h1{
+    font-family:"Cormorant Garamond";
+    font-size: x-large;
+
+}
+h3{
+    font-family:"raleway";
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.mm{
+    font-family:"raleway";
+    font-size: 22px;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.oga{
+    width: 26%;
+    height: 26%;
+    margin-left: 330px;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: none;
+    margin-left: none;
+    padding: none;
+
+}
+.nav-link{
+    border-right: 1px solid black;
+}
+nav{
+    padding-left: 70px;
+    padding-right: 0px;
+   
+}
+.third{
+    padding-right: 0%;
+}
+.donate{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: none;
+    margin-left: none;
+    padding-top: 2%;
+    padding-left:18%;
+    padding-right: 18%;
+    background-color: #9AE3DB;
+
+}
+.btnw {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #000000);
+    background-image: -moz-linear-gradient(top, #000000, #000000);
+    background-image: -ms-linear-gradient(top, #000000, #000000);
+    background-image: -o-linear-gradient(top, #000000, #000000);
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 0px;
+  }
+  
+  .btn:hover {
+    background: #273238;
+    background-image: -webkit-linear-gradient(top, #FFB5D8, #FFB5D8);
+    background-image: -moz-linear-gradient(top, #FFB5D8, #FFB5D8);
+    background-image: -ms-linear-gradient(top, #FFB5D8, #FFB5D8);
+    background-image: -o-linear-gradient(top, #FFB5D8, #FFB5D8);
+    background-image: linear-gradient(to bottom, #FFB5D8, #FFB5D8);
+    text-decoration: none;
+  }
+  .payment{
+    align-items: center;
+    justify-content: center;
+    margin-right: none;
+    margin-left: none;
+    padding-top: 5%;
+    padding-left:20%;
+    padding-right: 20%;
+    padding-bottom: 40px;
+    background-color: #D7F4F1;
+    font-family: "raleway";
+    font-weight: 300;
+    font-size: medium;
+
+  }
+.log{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: right;
+    padding-right: 12%;
+}
+.but{
+    color: #ffffff;
+    padding-bottom:0;
+}
+.carousel-item{
+    height: 400px;
+} 
+.carousel-item img{
+    height:400px;
+}
+.needs-validation{
+    text-align: justify;
+    background-color: white; 
+    padding: 190px; padding-bottom: 0; 
+    padding-top: 70px;
+}
+.val{
+    font-family:"raleway";
+    font-size: 14px;
+    font-weight: 500;
+}
+.lully{
+    background-color: #D7F4F1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.lul{
+    font-size: 16px;
+}
+a:visited, a:hover, a:active {
+    color: inherit;
+  }
+  
+
+@media (max-width: 768px){
+    .third-cee{
+        display: none;
+
+    }
+    .first-cee{
+        display: none;
+    }
+    .donate{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .needs-validation{
+        padding: 10px;
+    }
+    .oga{
+        margin: 0;
+    }
+    
+}
